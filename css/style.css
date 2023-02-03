@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+/* TOP MENU */
+/* header {
+  position: relative;
+} */
+
+.menu {
+  background-color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+  /* Why isn't it working?  
+  box-shadow: 0 4px 4px #000000; */
+}
+
+/* STYLING LINKS */
+a:link {
+  color: #313030;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #313030;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #313030;
+  text-decoration: none;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #313030;
+  text-decoration: none;
+}
+
+/* BIO INTRO AT 'HOME' */
+.bio-intro {
+  position: relative;
+}
+
+.avatar {
+  float: left;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 130px;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  height: 500px;
+  background-color: #f8f8f8;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 100px;
+  height: 500px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #41af8b;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 10px 0 0;
+}
+
+h3 {
+  color: #313030;
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+/* BOTTOM INTRO */
+button {
+  font-size: 12px;
+  background-color: #41af8b;
+  padding: 10px 25px;
+  border: #41af8b solid;
+  margin-right: 100px;
+}
+
+.bottom-intro {
+  font-size: 12px;
+}
+
+/* FOOTER */
+.copyright {
+  color: #fff;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
