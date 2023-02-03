@@ -9,11 +9,6 @@ body {
   font-family: sans-serif;
 }
 
-/* TOP MENU */
-/* header {
-  position: relative;
-} */
-
 .menu {
   background-color: #fff;
   font-size: 14px;
@@ -21,8 +16,6 @@ body {
   justify-content: center;
   gap: 20px;
   padding: 15px 0;
-  /* Why isn't it working?  
-  box-shadow: 0 4px 4px #000000; */
 }
 
 /* STYLING LINKS */
